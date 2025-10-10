@@ -1,0 +1,11 @@
+---
+- name: Ensure a package is present
+  hosts: all
+  become: true
+  vars:
+    package_name: vim
+  tasks:
+    - name: Install package
+      ansible.builtin.package:
+        name: "{{ package_name }}"
+        state: present

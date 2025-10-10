@@ -1,0 +1,5 @@
+# Group-wide variables for the 'rhel' group
+# You can place common vars here instead of per-host in the inventory.
+# Example: set a different default package or interpreter.
+package_name: vim
+ansible_python_interpreter: /usr/bin/python3

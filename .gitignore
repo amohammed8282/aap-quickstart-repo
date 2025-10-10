@@ -1,0 +1,5 @@
+# Local artifacts
+*.retry
+__pycache__/
+.idea/
+.vscode/
