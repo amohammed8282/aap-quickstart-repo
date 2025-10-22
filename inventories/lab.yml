@@ -2,8 +2,8 @@ all:
   children:
     rhel:
       hosts:
-        192.168.109.129:
-        192.168.109.130:
+        3.137.193.38:
+        18.219.121.98:
       vars:
         ansible_user: ec2-user          # change to your VM user
         ansible_python_interpreter: /usr/bin/python3
